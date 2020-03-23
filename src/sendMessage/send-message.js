@@ -1,5 +1,5 @@
 import React from 'react';
-import MessagesList from './messagesList';
+import MessagesList from '../messageList/messagesList';
 
 class SendMessage extends React.Component {
     onSubmit = (e) => {
